@@ -1,0 +1,76 @@
+html{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+   box-sizing: border-box; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+
+
+/* ----------- GRID ----------- */
+@for $i from 1 through 4{
+  $w: ($i / 4) * 95%;
+
+  .s-#{$i} {width:$w;}
+}
+
+/*Header Styles*/
+header{
+  width:100%;
+  height:100vh;
+  nav{
+    width:100%;
+
+    .mob{
+      text-align: right;
+      position: fixed;
+      z-index:2;
+      font-size:3rem;
+      padding:0.5rem 1rem;
+      color:$col-1;
+      background-color:white;
+    }
+
+    #nav-menu{
+      width:100%;
+      text-align: center;
+      transition:0.5s ease;
+      position:fixed;
+      top:-20rem;
+
+      a{
+        font-size:2rem;
+        text-decoration: none;
+        color:white;
+        font-family:'Roboto', sans-serif;
+      }
+      .col{
+        background-color: rgba(0,0,0, 0.8);
+        padding:0.6rem 0;
+        margin:0.04rem 0;
+      }
+    }
+  }//Nav END.
+}//Header END.
+
+
+
+/*Main Styles*/
+section{
+  padding:1rem 0;
+
+  .titulo{
+    font-size:2rem;
+    padding:0.5rem 0;
+  }
+}
+
+
+
+
+
+
+/*Footer styles*/
