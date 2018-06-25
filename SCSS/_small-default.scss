@@ -44,6 +44,7 @@ header{
       padding:0.5rem 1rem;
       color:white;
       background-color:transparent;
+      visibility: hidden;
     }
 
     #nav-menu{
@@ -69,31 +70,38 @@ header{
 .atach{
   position: fixed;
   left: 0;
-  top:15vh;
+  top:16vh;
+  text-align: center;
 }
  #eu{
-   display: block;
-   margin: auto;
+   margin:0 1.2rem;
    border-radius: 100%;
-   width:40%;
-   filter: grayscale(100%);
+   width:36%;
+ }
+ .eu-bar{
+   width: 15%;
+   border-bottom: 2px solid grey;
+   position:relative;
+   top:4rem;
  }
  .welcome{
      font-family: 'Lato', sans-serif;
      text-align: center;
      position: fixed;
-     top:45vh;
+     margin-top:70%;
      z-index:-1;
+     left:0;
  }
  .bem{
-   font-size:3.5rem;
+   font-size:3rem;
    color: white;
    font-weight: 300;
  }
  .fique{
-   font-size:1.4rem;
+   font-size:1.2rem;
    margin-top:0.6rem;
-   color:rgba(255, 255, 255,0.6);
+   color:rgba(255, 255, 255, 1);
+   width:78%;
  }
 
 }//Header END.
@@ -116,20 +124,31 @@ width:90%;
 margin:auto;
 background-color: white;
 height:100vh;
-border-radius: 0.3rem; 
+border-radius: 0.3rem;
 text-align: center;
-padding-top:2.5rem;
+padding-top:2rem;
 z-index:1;
 
   h2{
     font-family: 'Lato', sans-serif;
     font-size:1.3rem;
-    color: $col-5;
+    color: #358EC4;
   }
   .fas{
   position: relative;
   top:0.1rem;
-  color: $col-5;
+  color: #617aa3;
+  }
+
+  button{
+    background-color: transparent;
+    color:#617aa3;
+    font-family:'Lato', sans-serif;
+    font-weight:400;
+    font-size:1.3rem;
+    border:1px solid #617aa3;
+    margin-top:-2vw;
+    border-radius:3px;
   }
 }
 
