@@ -6,13 +6,161 @@
   .l-#{$i} {width:$w; }
 }
 /*Header Styles*/
+header{
+  height:90vh;
 
+.welcome{
+  margin-top:23%;
+}
+.bem{
+
+}
+.fique{
+  font-size:1.6rem;
+  // font-weight: 300;
+  margin-top:0.6rem;
+  color:rgba(255, 255, 255, 0.7);
+  width:78%;
+}
+
+}//Header END.
+.spacer{
+ height:3.2rem;
+}
+.spacer-2{
+ height:5rem;
+}
 
 
 
 /*Main Styles*/
+ section{
+   padding-top:8rem;
+
+   #eu{
+     width:8%;
+     left:46%;
+   }
+ }
+
+ h2{
+   margin:2rem 0;
+ }
+
+   .container{
+
+     nav{
+       width:100%;
+       padding:0;
+       background-color: white;
+       margin-bottom: 0;
+
+       height:3rem;
+     }
+
+     .under{
+       border:1px solid lightblue;
+     }
+     p{
+       font-size: 16px;
+       font-weight: 300;
+       line-height: 150%;
+       width:95%;
+     }
+   }
+
+   #sobre{
+
+     h2{
+       margin-bottom:1rem;
+     }
+
+     p{
+       width:40%;
+       margin: auto;
+     }
+   }
+
+   #mastery{
+     margin-top:1rem;
+     text-align: center;
 
 
+     .code{
+       width:9.5%;
+     }
 
+     h3{
+       width:40%;
+       padding:1vw;
+       font-size:2rem;
+       font-weight: 400;
+       border-bottom: 1px solid #aaa;
+     }
+     h4{
+       font-weight: 400;
+     }
+
+    .fa-code{
+      color:white;
+      background-color: lightblue;
+      font-size:15vw;
+      border:1px solid lightgrey;
+      padding:1.7rem 1.2rem;
+      border-radius: 100%;
+      margin-bottom:10vw;
+    }
+
+    .fa-css3-alt{
+      color:blueviolet;
+    }
+   }
+
+   .skill{
+     .fab{
+       font-size:4rem;
+       margin-top:0;
+       margin-bottom:1rem;
+     }
+   }
+
+   .pro{
+     width:85%;
+     height:1.2rem;
+     background-color: white;
+     box-shadow: inset 0px 1px 3px #666;
+     border-radius:3px;
+     display: inline-block;
+     margin: auto;
+     margin-top:-3rem;
+
+     .html5{
+
+     }
+   }
+
+  #projetos{
+
+
+    article{
+      width:30%;
+      h3{
+        font-size:1.5rem;
+      }
+
+      p{
+        text-align: center;
+      }
+      a{
+        padding:0.5rem;
+      }
+    }
+  }
 
 /*Footer styles*/
+ footer{
+
+   form{
+     width:30%;
+   }
+ }

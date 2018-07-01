@@ -6,13 +6,134 @@
 }
 
 /*Header Styles*/
+header{
+  height:90vh;
 
+.welcome{
+  margin-top:35%;
+}
 
+.bem{
+
+}
+.ghost{
+  visibility: visible;
+  position: relative;
+}
+
+}//Fim Header;
+.spacer-2{
+  height:20vw;
+}
 
 
 /*Main Styles*/
+ ul{
+   a{
+     color:grey;
+     padding:1rem 0;
+     cursor: pointer;
+   }
+   a:hover{
+     transition: 0.5s ease;
+     background-color: darken(white, 20%);
+   }
+ }
+.spacer{
+  height:8rem;
+}
+section{
+  #eu{
+    width:15%;
+    position: fixed;
+    top:22%;
+    left:42%;
+    transition: 0.5s ease;
+  }
+}
+.container{
+
+     nav{
+       visibility: visible;
+       margin-bottom:3rem;
+     }
+
+     ul{
+       padding-top:1rem;
+     }
+
+     p{
+       width:60%;
+     }
+  }
+
+  #sobre{
+
+    p{
+      width:40%;
+      margin:auto;
+    }
+  }
+
+#mastery{
+
+  h2{
+    margin-bottom:1rem;
+  }
+  h3{
+    font-size:2rem  ;
+    width:35%;
+  }
+
+  .code{
+    width:15%;
+    margin-bottom:2rem;
+  }
+}
+
+.skill{
+   margin-top:2rem;
+  .fab{
+   visibility: visible;
+    position: static;
+    font-size:5rem;
+  }
+}
+
+#projetos{
+  h2{
+    margin-bottom:1rem;
+  }
+  h3{
+    font-size:2.3vw;
+  }
+  article{
+    width:50%;
 
 
+    a{
+      padding:1vw;
+    }
+  }
+}
 
 
 /*Footer styles*/
+
+footer{
+  i{
+    font-size:2rem;
+  }
+
+  form{
+    width:50%;
+    border-radius: 0.6rem;
+
+    button{
+      margin-top:1rem;
+      width:30%;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}

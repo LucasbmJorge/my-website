@@ -14,88 +14,118 @@
     <header>
 
     <div class="col welcome">
-     <p class="col bem">BEM VINDO</p>
-     <p class="col fique">Se voce quer um site, veio ao lugar certo</p>
+     <p class="col bem">BEM VINDO</p> <p class="bem ghost"> AO MEU SITE </p>
+     <p class="col fique">Fique a vontade para explorar.</p>
     </div>
 
     </header>
     <main>
 
       <section class="container">
+        <nav id="menu">
+          <ul>
+            <a href="#sobre"><li class="col m-2">Sobre Mim</li></a>
+            <a href="#mastery"><li class="col m-2">Conhecimentos</li></a>
+            <a href="#projetos"><li class="col m-2">Meus Projetos</li></a>
+            <a href="#Contato"><li class="col m-2">Contato</li></a>
+          </ul>
+        </nav>
 
-       <section class="sobre">
-
+       <section id="sobre">
          <img src="images/smile-dogg.jpg" id="eu" alt="">
+         <div class="spacer"> </div>
        <h2>Um pouco sobre mim</h2>
        <br>
-     <div class="col s-1 under"></div>
+     <div class="col s-1 under"></div> <br>
 
-       <p class="col">Olá, meu nome é Lucas Bandeira Moreira Jorge e sou Webdeveloper.
+       <p>Olá, meu nome é Lucas Bandeira Moreira Jorge e sou Webdeveloper.
        Gostaria de tornar seu sonho , ideia ou negócio em uma realidade.</p>
       </section>
 
-      <section class="mastery">
-        <i class="fas fa-circle"></i>
-        <h2>Minhas Habilidades : <i class="fas fa-question-circle"></i> </h2>
+      <section id="mastery">
+          <img class="code" src="images/code-white.png"  alt="Code">
 
-        <h3 class="col">Frontend</h3>
+<br> <br>
+        <h2>Conhecimentos</h2>
 
-        <!-- <i class="fab fa-html5"></i> -->
-        <h4>HTML5</h4> <br>
-        <div class="pro">
-          <div class="html5"></div>
+     <div class="front col l-6">
+        <h3 class="col">Frontend</h3> <br>
+
+
+        <div class="col s-2 m-4 l-3  skill ">
+          <i class="fab fa-html5"></i>
+        <h4>HTML5</h4>
         </div>
 
-        <!-- <i class="fab fa-css3-alt"></i> -->
-        <h4>CSS3</h4> <br>
-        <div class="pro">
-          <div class="html5"></div>
-        </div>
 
-        <h4>SaSS</h4> <br>
-        <div class="pro">
-          <div class="html5"></div>
-        </div>
+        <div class="col s-2 m-4 l-3  skill ">
+          <i class="fab fa-css3-alt"></i>
+        <h4>CSS3</h4>
+      </div>
 
-        <!-- <i class="fab fa-js-square"></i> -->
-        <h4>JavaScript</h4> <br>
-        <div class="pro">
-          <div class="html5"></div>
-        </div>
- <div class="spacer-2">
 
- </div>
-        <h3 class="col s-3">Backend</h3>
-        <h4>Php</h4> <br>
-        <div class="pro">
-          <div class="html5"></div>
-        </div>
 
-        <h4>MySQL</h4> <br>
-        <div class="pro">
-          <div class="html5"></div>
-        </div>
+      <div class="col s-2 m-4 l-3  skill ">
+        <i class="fab fa-sass"></i>
+        <h4>SaSS</h4>
+      </div>
+
+
+              <div class="col s-2 m-4 l-3  skill ">
+                <i class="fab fa-js-square"></i>
+        <h4>JavaScript</h4>
+      </div>
+
+      </div>
+
+   <div class="back col l-6">
+
+        <h3 class="col s-3">Backend</h3> <br>
+
+        <div class="col s-2 m-4 l-3 skill">
+          <i class="fab fa-php"></i>
+        <h4>Php</h4> </div>
+
+        <div class="col s-2 m-4 l-3 skill">
+          <img src="images/nospace.png" alt="">
+        <h4>MySQL</h4></div>
+
+           </div>
 
       </section>
-    </section>
+
 
      <div class="spacer-2"> </div>
 
-     <section class="projetos">
-     <h2>Meus Projetos</h2> <br><br>
-
+     <section id="projetos">
+     <h2>Alguns de meus projetos</h2>
+     <div class="col s-1 under"></div> <br>
      <article>
        <h3>Ellos | Consultoria Contábil</h3>
        <img src="images/Ellos.png" alt="">
        <p>HTML5, CSS3, JavaScript, AngularJS, PHP e MySQL</p>
        <a href="#">ACESSAR PAGINA</a>
      </article>
-
      </section>
-   </div>
+</section>
     </main>
     <footer>
-      <h2>Me encontre também:</h2>
+ <br> <br>
+        <h2>Entre em contato:</h2> <br>
+      <form class="" action="mail.php" method="post">
+        <p>Nome</p>
+        <input type="text" name="nome" placeholder="(opcional)" value="">
+
+          <p>Email</p>
+        <input type="email" name="email" placeholder="(opcional)" value="">
+
+          <textarea name="msg" rows="8" cols="80"
+          placeholder="Deixe aqui sua mensagem, sugestão, idéia ou critica. Sua opinião vale ouro"></textarea>
+
+        <br>  <button type="submit" name="button">ENVIAR</button>
+      </form>
+
+      <h2 id='Contato'>Me encontre também:</h2>
       <i class="fab fa-facebook-square"></i>
       <i class="fab fa-youtube-square"></i>
       <i class="fab fa-github-square"></i>
