@@ -396,7 +396,9 @@ footer {
 
   .container nav {
     visibility: visible;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 4; }
   .container ul {
     padding-top: 1rem; }
   .container p {
@@ -422,6 +424,9 @@ footer {
       position: static;
       font-size: 5rem; }
 
+  .sql img {
+    width: 10rem; }
+
   #projetos h2 {
     margin-bottom: 1rem; }
   #projetos h3 {
@@ -433,7 +438,7 @@ footer {
 
   /*Footer styles*/
   footer i {
-    font-size: 2rem; }
+    font-size: 3rem; }
   footer form {
     width: 50%;
     border-radius: 0.6rem; }
@@ -496,7 +501,7 @@ footer {
     height: 3.2rem; }
 
   .spacer-2 {
-    height: 5rem; }
+    height: 0rem; }
 
   /*Main Styles*/
   section {
@@ -556,6 +561,9 @@ footer {
     font-size: 4rem;
     margin-top: 0;
     margin-bottom: 1rem; }
+
+  .sql img {
+    margin-bottom: 0.7rem; }
 
   .pro {
     width: 85%;
